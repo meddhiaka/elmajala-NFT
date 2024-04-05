@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { AuroraBackgroundDemo } from "@/components/LandingBackground";
 
 export default function Home() {
   return (
     <div>
-      hello
+      <AuroraBackgroundDemo />
     </div>
   );
 }

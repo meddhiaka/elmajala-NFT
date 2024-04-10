@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "./ui/aurora-background";
 import Image from "next/image";
-import ConnectButton from "./connectButton";
-
+import { ConnectButton } from "./ConnectButton";
+import { PuffLoader } from "react-spinners";
 
 export function AuroraBackgroundDemo() {
     return (

@@ -11,7 +11,7 @@ const config: HardhatUserConfig = {
     hardhat: {},
     sepolia: {
       url: process.env.NODE_API_URL,
-      accounts: [`0x${process.env.NODE_PRIVATE_KEY}`]
+      accounts: [`${process.env.METAMASK_PRIVATE_KEY}`]
     }
   }
 };
